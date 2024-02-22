@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset your.name:1 labels:example-label context:example-context
+--changeset nishith:1 labels:example-label context:example-context
 --comment: example comment
 create table person (
     id int primary key auto_increment not null,
@@ -11,7 +11,7 @@ create table person (
 )
 --rollback DROP TABLE person;
 
---changeset your.name:2 labels:example-label context:example-context
+--changeset nishith:2 labels:example-label context:example-context
 --comment: example comment
 create table company (
     id int primary key auto_increment not null,
